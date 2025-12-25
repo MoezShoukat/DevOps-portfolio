@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: rgb(99, 1, 129);
+    padding: 15px 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    position: relative;
+    font-size: 24px;
+    padding-left: 50px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo-img {
+    position: absolute; 
+    top: 50%; 
+    left: 10px; 
+    transform: translateY(-50%); 
+    width: 30px; 
+    height: auto;
+    z-index: 0; 
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f7f7f7;
+}
+
+.profile-pic img {
+    border-radius: 90%;
+    width: 250px;
+    margin-left: 500px;
+}
+
+.intro {
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px 0;
+}
+
+.intro p1 {
+    margin: 10px 0;
+    text-align: justify;
+    font-style:italic;
+}
+
+.intro p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.buttons {
+    margin-top: 10px; 
+    display: flex;
+}
+
+.buttons .btn {
+    text-decoration: none;
+    background-color: rgb(136, 1, 170);
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.section-line {
+    height: 2px;
+    background-color: #731bd8; 
+    width: 50%; 
+    margin: 0 auto 30px; 
+}
+
+
+.services {
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: white;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-cards h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.service {
+    background-color: #f7f7f7;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(95, 10, 145);
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
