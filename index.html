@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moez Shoukat - Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">
+            <img src="https://img.freepik.com/free-vector/gradation-m-letter-logo-design_557339-335.jpg"
+                 alt="Logo" class="logo-img">
+            Moez Shoukat
+        </div>
+        <ul>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="profile-pic">
+        <img src="pfp.jfif" alt="Moez Shoukat">
+    </div>
+    <div class="intro">
+        <h1>Moez Shoukat</h1>
+        <p><strong>Frontend Developer</strong></p>
+        <p>
+            A Frontend Developer with a passion for creating modern, responsive, and
+            user-friendly websites. I specialize in HTML, CSS, and JavaScript to
+            deliver smooth and intuitive web experiences.
+        </p>
+        <div class="buttons">
+            <a href="#" class="btn">Download CV</a>
+            <a href="#contact" class="btn">Contact</a>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="section-line"></div>
+    <h2>What I Do?</h2>
+    <div class="service-cards">
+        <div class="service">
+            <h3>Copywriting</h3>
+            <p>Creating clean and compelling copy for websites.</p>
+        </div>
+        <div class="service">
+            <h3>Web Design</h3>
+            <p>Designing visually appealing and responsive websites.</p>
+        </div>
+        <div class="service">
+            <h3>E-commerce</h3>
+            <p>Building user-friendly ecommerce platforms.</p>
+        </div>
+        <div class="service">
+            <h3>Marketing</h3>
+            <p>Developing effective online marketing strategies.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION (Backend Connected) -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+
+    <form action="contact.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2024 Moez Shoukat. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
